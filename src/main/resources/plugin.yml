@@ -1,0 +1,5 @@
+name: DisableJoinMessages
+version: @project.version@
+main: uk.co.notnull.disablejoinmessages.DisableJoinMessages
+author: Jim (NotKatuen)
+api-version: 1.16
