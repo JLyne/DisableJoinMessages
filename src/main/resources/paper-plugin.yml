@@ -1,5 +1,0 @@
-name: DisableJoinMessages
-version: @project.version@
-main: uk.co.notnull.disablejoinmessages.DisableJoinMessages
-author: Jim (AnEnragedPigeon)
-api-version: '1.21'
