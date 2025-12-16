@@ -13,10 +13,6 @@ public final class DisableJoinMessages extends JavaPlugin implements Listener {
 		getServer().getPluginManager().registerEvents(this, this);
 	}
 
-	@Override
-	public void onDisable() {
-	}
-
 	@EventHandler
 	public void onJoin(PlayerJoinEvent e) {
 		e.joinMessage(null);
