@@ -25,7 +25,7 @@ dependencies {
 
 paper {
     main = "uk.co.notnull.disablejoinmessages.DisableJoinMessages"
-    apiVersion = libs.versions.paperApi.get().replace(Regex("\\-R\\d.\\d-SNAPSHOT"), "")
+    apiVersion = libs.versions.paperApi.get().replace(".build.+", "")
     authors = listOf("Jim (AnEnragedPigeon)")
     description = "Disable player join and leave messages"
 }
